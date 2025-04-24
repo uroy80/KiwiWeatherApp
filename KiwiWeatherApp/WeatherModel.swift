@@ -27,7 +27,7 @@ class WeatherViewModel: ObservableObject {
     @Published var errorMessage: String?
     
     // Using the provided API key
-    private let apiKey = "e899cc9e6c290497b4fc9457266d96d7"
+    private let apiKey = "<PUT-YOUR-API-KEY"
     
     func fetchWeather(for city: String) {
         guard !city.isEmpty else { return }
